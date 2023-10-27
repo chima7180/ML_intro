@@ -27,3 +27,5 @@ plt.imshow(digits.images[100], cmap='gray')
 predicted = model.predict(test)
 print(predicted)
 plt.show()
+
+#fin

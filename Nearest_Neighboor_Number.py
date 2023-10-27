@@ -11,6 +11,7 @@ y = digits.target
 
 print('Dimension de X:', x.shape)
 
+
 # Affichage d'un des chiffres
 plt.imshow(digits.images[0], cmap='gray')
 plt.show()
@@ -28,4 +29,3 @@ predicted = model.predict(test)
 print(predicted)
 plt.show()
 
-#fin
